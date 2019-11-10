@@ -1,0 +1,241 @@
+body {
+  color: #949494;
+  background-color: #ffffff;
+}
+a {
+  color: #21d367;
+}
+a:hover {
+  color: #1aa751;
+}
+.sp-megamenu-parent >li.active>a,
+.sp-megamenu-parent >li:hover>a {
+  color: #21d367;
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item >a:hover {
+  background: #21d367;
+}
+.sp-megamenu-parent .sp-dropdown li.sp-menu-item.active>a {
+  color: #21d367;
+}
+#offcanvas-toggler >i:hover {
+  color: #21d367;
+}
+ul.social-icons >li a:hover {
+  color: #21d367;
+}
+.sp-page-title {
+  background: #21d367;
+}
+.layout-boxed .body-innerwrapper {
+  background: #ffffff;
+}
+.sp-module ul >li >a {
+  color: #949494;
+}
+.sp-module ul >li >a:hover {
+  color: #21d367;
+}
+.sp-module .latestnews >div >a {
+  color: #949494;
+}
+.sp-module .latestnews >div >a:hover {
+  color: #21d367;
+}
+.sp-module .tagscloud .tag-name:hover {
+  background: #21d367;
+}
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li.active > a,
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li > a:hover {
+  background: #21d367;
+}
+.search .btn-toolbar button {
+  background: #21d367;
+}
+.post-format {
+  background: #21d367;
+}
+.voting-symbol span.star.active:before {
+  color: #21d367;
+}
+.sp-rating span.star:hover:before,
+.sp-rating span.star:hover ~ span.star:before {
+  color: #1aa751;
+}
+.entry-link,
+.entry-quote {
+  background: #21d367;
+}
+blockquote {
+  border-color: #21d367;
+}
+.carousel-left:hover,
+.carousel-right:hover {
+  background: #21d367;
+}
+.sp-comingsoon body {
+  background-color: #21d367;
+}
+.pagination>li>a,
+.pagination>li>span {
+  color: #949494;
+}
+.pagination>li>a:hover,
+.pagination>li>a:focus,
+.pagination>li>span:hover,
+.pagination>li>span:focus {
+  color: #949494;
+}
+.pagination>.active>a,
+.pagination>.active>span {
+  border-color: #21d367;
+  background-color: #21d367;
+}
+.pagination>.active>a:hover,
+.pagination>.active>a:focus,
+.pagination>.active>span:hover,
+.pagination>.active>span:focus {
+  border-color: #21d367;
+  background-color: #21d367;
+}
+.btn.sppb-btn-link,
+.sppb-btn.sppb-btn-link,
+.btn.btn-link,
+.sppb-btn.btn-link,
+.sppb-addon-article .sppb-readmore,
+.sppb-addon-persion .sppb-addon-content .sppb-person-information .sppb-person-designation,
+.view-article .entry-header .helix-social-share-wrap .helix-social-share .helix-social-share-icon ul li a,
+.view-article .entry-header .article-info a,
+.view-article .entry-header .article-info dd,
+.sp-dropdown li.sp-menu-item > a,
+.sp-dropdown li.sp-menu-item span {
+  color: #949494;
+}
+.btn.sppb-btn-success,
+.sppb-btn.sppb-btn-success,
+.btn.btn-success,
+.sppb-btn.btn-success,
+.hope-become-a-volunteer .sppb-addon-text-block h2.sppb-addon-title,
+.hope-become-a-volunteer .sppb-addon-text-block .sppb-addon-content,
+body.home-v2 .hope-become-a-volunteer .sppb-title-heading,
+body.home-v2 .hope-become-a-volunteer .sppb-title-subheading,
+.home-two-causes-donation .sppb-progress .sppb-progress-bar span,
+.sppb-modal-selector.sppb-magnific-popup span i,
+.pagination-wrapper .pagination li:hover a,
+.pagination-wrapper .pagination li.active a,
+.view-article .pager.pagenav li a,
+.hope-causes.view-article .sppb-addon-donation .donation-button a {
+  color: #ffffff;
+}
+.btn.sppb-btn-success,
+.sppb-btn.sppb-btn-success,
+.btn.btn-success,
+.sppb-btn.btn-success,
+.btn.btn-default:hover,
+.sppb-btn.btn-default:hover,
+.btn.sppb-btn-default:hover,
+.sppb-btn.sppb-btn-default:hover,
+.btn.btn-default:focus,
+.sppb-btn.btn-default:focus,
+.btn.sppb-btn-default:focus,
+.sppb-btn.sppb-btn-default:focus,
+.btn.sppb-btn-primary:hover,
+.sppb-btn.sppb-btn-primary:hover,
+.btn.btn-primary:hover,
+.sppb-btn.btn-primary:hover,
+.btn.sppb-btn-primary:focus,
+.sppb-btn.sppb-btn-primary:focus,
+.btn.btn-primary:focus,
+.sppb-btn.btn-primary:focus,
+.home-two-causes-donation .sppb-progress .sppb-progress-bar,
+.home-two-causes-donation .sppb-progress .sppb-progress-bar:before,
+.home-two-causes-donation .sppb-progress .sppb-progress-bar span,
+.sppb-slider-fullwidth-wrapper .owl-controls .owl-dots .owl-dot.active span,
+.sppb-addon-donation .donation-ammount-wrap input:hover,
+.sppb-addon-donation .donation-ammount-wrap input:focus,
+.sppb-modal-selector.sppb-magnific-popup span i,
+.tags a.label.label-info:hover,
+.tags a.label.label-info:focus,
+#sp-right .sppb-addon-social-media .social-media-text-wrap a:hover,
+#sp-left .sppb-addon-social-media .social-media-text-wrap a:hover,
+#sp-right .sppb-addon-social-media .social-media-text-wrap a:focus,
+#sp-left .sppb-addon-social-media .social-media-text-wrap a:focus,
+.helix-social-share .helix-social-share-icon ul li div a:hover,
+.helix-social-share .helix-social-share-icon ul li div a:focus,
+.pagination-wrapper .pagination li:hover a,
+.pagination-wrapper .pagination li.active a,
+.view-article .pager.pagenav li a,
+.view-article .article-footer-top .helix-social-share .helix-social-share-icon ul li a,
+.hope-causes.view-article .sppb-addon-donation .donation-button a,
+.sp-comingsoon .acymailing_form .acysubbuttons input,
+.error-page .btn.btn-primary,
+.sp-dropdown li.sp-menu-item > a:hover,
+.sp-dropdown li.sp-menu-item.active > a:hover {
+  background: #21d367;
+}
+.btn.sppb-btn-link:hover,
+.sppb-btn.sppb-btn-link:hover,
+.btn.btn-link:hover,
+.sppb-btn.btn-link:hover,
+.btn.sppb-btn-link:focus,
+.sppb-btn.sppb-btn-link:focus,
+.btn.btn-link:focus,
+.sppb-btn.btn-link:focus,
+.major-color,
+body.home-v2 .hope-become-a-volunteer .acymailing_module_form .acysubbuttons:hover:before,
+.sppb-slider-fullwidth-wrapper .customNavigation a:hover,
+.sppb-addon-animated-number div.sppb-addon-content .sppb-animated-number-syntax-before,
+.sppb-addon-animated-number div.sppb-addon-content .sppb-animated-number,
+.sppb-addon-animated-number div.sppb-addon-content .sppb-animated-number-syntax-after,
+.sppb-addon-social-media .social-media-text-wrap a:hover,
+.sppb-addon-social-media .social-media-text-wrap a:focus,
+.sppb-addon-upcoming-events .upcoming-events-date span,
+.sppb-addon-upcoming-events .upcoming-events-details-top-wrapper .event-address i,
+.sppb-addon-article .sppb-addon-article-title a:hover,
+.sppb-addon-article .sppb-addon-article-title a:focus,
+.sppb-addon-article .sppb-readmore:hover,
+.sppb-addon-article .sppb-readmore:focus,
+.contact-form-section .sppb-addon-feature .sppb-icon .sppb-icon-container i,
+.hope-faq-section .sppb-addon-feature .sppb-icon-container i,
+.sppb-addon-persion .sppb-person-social-icons .sppb-person-social li a:hover,
+.sppb-addon-persion .sppb-person-social-icons .sppb-person-social li a:focus,
+.article-info > dd,
+.article-info > dd a,
+article.item .readmore a,
+#sp-right .sp-module ul li a:hover,
+#sp-left .sp-module ul li a:hover,
+#sp-right .sp-module ul li a:focus,
+#sp-left .sp-module ul li a:focus,
+#sp-right .sp-module .latestnews > div a:hover,
+#sp-left .sp-module .latestnews > div a:hover,
+#sp-right .sp-module .latestnews > div a:focus,
+#sp-left .sp-module .latestnews > div a:focus,
+.entry-header h2 a:hover,
+.entry-header h2 a:focus,
+.pagination-wrapper .pagination li:first-child:not(.active):hover a,
+.pagination-wrapper .pagination li:last-child:not(.active):hover a,
+.view-article .entry-header .helix-social-share-wrap .helix-social-share .helix-social-share-icon ul li a:hover,
+.view-article .entry-header .helix-social-share-wrap .helix-social-share .helix-social-share-icon ul li a:focus {
+  color: #21d367;
+}
+.hope-become-a-volunteer {
+  background-color: #21d367;
+}
+.home-two-causes-donation .sppb-progress .sppb-progress-bar span:before {
+  border-right: 6px solid #21d367;
+}
+.sppb-addon-donation .donation-ammount-wrap input:hover,
+.sppb-addon-donation .donation-ammount-wrap input:focus,
+.sppb-addon-ajax-contact .sppb-ajax-contact-content .sppb-ajaxt-contact-form .sppb-form-group input:focus,
+.sppb-addon-ajax-contact .sppb-ajax-contact-content .sppb-ajaxt-contact-form .sppb-form-group textarea:focus {
+  border-color: #21d367;
+}
+.sppb-addon-gallery ul.sppb-gallery li a:before {
+  background: rgba(33,211,103,0.9);
+}
+.menu-drop-in .sp-has-child .sp-menu-item {
+  background-color: #ffffff;
+}
+.sp-megamenu-parent .sp-dropdown .sp-dropdown-inner {
+  background: #ffffff;
+}

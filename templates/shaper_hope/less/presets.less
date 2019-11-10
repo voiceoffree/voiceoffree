@@ -1,0 +1,349 @@
+/**
+ * @package Helix Framework
+ * @author JoomShaper http://www.joomshaper.com
+ * @copyright Copyright (c) 2010 - 2017 JoomShaper
+ * @license http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 or later
+*/
+
+@import 'variables';
+@import 'mixins';
+
+
+body {
+    color: @text_color;
+    background-color: @bg_color;
+}
+
+
+// Anchor
+a{
+    color: @major_color;
+    &:hover {
+        color: darken(@major_color, 10%);
+    }
+}
+
+// Megamenu
+.sp-megamenu-parent {
+    >li {
+        &.active>a,
+        &:hover>a {
+            color: @major_color;
+        }
+    }
+
+    .sp-dropdown {
+        li.sp-menu-item {
+            >a {
+
+                &:hover {
+                    background: @major_color;
+                }
+            }
+            &.active>a {
+                color: @major_color;
+            }
+        }
+    }
+
+}
+
+// Off Canvas
+#offcanvas-toggler {
+    >i {
+        &:hover {
+            color: @major_color;
+        }
+    }
+}
+
+// Topbar Social
+ul.social-icons {
+
+    >li {
+
+        a {
+
+            &:hover {
+                color: @major_color;
+            }
+        }
+    }
+}
+
+// Page Title
+.sp-page-title {
+    background: @major_color;
+}
+
+// Body Innerwrapper
+
+.layout-boxed .body-innerwrapper {
+    background: @bg_color;
+}
+
+// Module
+.sp-module {
+    ul {
+        >li {
+            >a {
+                color: @text_color;
+                &:hover {
+                    color: @major_color;
+                }
+            }
+        }
+    }
+
+    .latestnews {
+        >div {
+            >a {
+                color: @text_color;
+                &:hover {
+                    color: @major_color;
+                }
+            }
+        }
+    }
+
+    .tagscloud {
+        .tag-name {
+            &:hover {
+                background: @major_color;
+            }
+        }
+    }
+}
+
+// sp Simple Portfolio
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li.active > a,
+.sp-simpleportfolio .sp-simpleportfolio-filter > ul > li > a:hover {
+    background: @major_color;
+}
+
+// Search
+.search {
+    .btn-toolbar {
+        button {
+            background: @major_color;
+        }
+    }
+}
+
+
+// Blog
+.post-format {
+    background: @major_color;
+}
+
+.voting-symbol{
+    span.star.active:before{
+        color: @major_color;
+    }
+}
+
+.sp-rating {
+    span.star:hover:before,
+        span.star:hover ~ span.star:before {
+        color: darken(@major_color, 10%);
+    }
+}
+
+.entry-link,
+.entry-quote {
+    background: @major_color;
+}
+
+blockquote {
+    border-color: @major_color;
+}
+
+.carousel-left,
+.carousel-right {
+
+    &:hover {
+        background: @major_color;
+    }
+}
+
+// Comingsoon
+.sp-comingsoon body {
+    background-color: @major_color;
+}
+
+// Pagination
+.pagination>li>a,
+.pagination>li>span {
+    color: @text_color;
+    &:hover,
+        &:focus {
+        color: @text_color;
+    }
+}
+
+.pagination>.active>a,
+.pagination>.active>span {
+    border-color: @major_color;
+    background-color: @major_color;
+    &:hover,
+        &:focus {
+        border-color: @major_color;
+        background-color: @major_color;
+    }
+}
+
+
+// **************** **************** ************** **************** **************** //
+// **************** ****************   Shaper Hope  **************** **************** //
+// **************** **************** ************** **************** **************** //
+
+.btn.sppb-btn-link,
+.sppb-btn.sppb-btn-link,
+.btn.btn-link,
+.sppb-btn.btn-link,
+.sppb-addon-article .sppb-readmore,
+.sppb-addon-person .sppb-addon-content .sppb-person-information .sppb-person-designation,
+.view-article .entry-header .helix-social-share-wrap .helix-social-share .helix-social-share-icon ul li a,
+.view-article .entry-header .article-info a,
+.view-article .entry-header .article-info dd,
+.sp-dropdown li.sp-menu-item > a,
+.sp-dropdown li.sp-menu-item span {
+    color: @text_color;
+}
+
+.btn.sppb-btn-success,
+.sppb-btn.sppb-btn-success,
+.btn.btn-success,
+.sppb-btn.btn-success,
+.hope-become-a-volunteer .sppb-addon-text-block h2.sppb-addon-title,
+.hope-become-a-volunteer .sppb-addon-text-block .sppb-addon-content,
+body.home-v2 .hope-become-a-volunteer .sppb-title-heading,
+body.home-v2 .hope-become-a-volunteer .sppb-title-subheading,
+.home-two-causes-donation .sppb-progress .sppb-progress-bar span,
+.sppb-modal-selector.sppb-magnific-popup span i,
+.pagination-wrapper .pagination li:hover a,
+.pagination-wrapper .pagination li.active a,
+.view-article .pager.pagenav li a,
+.hope-causes.view-article .sppb-addon-donation .donation-button a {
+    color: @major2_color;
+}
+
+.btn.sppb-btn-success,
+.sppb-btn.sppb-btn-success,
+.btn.btn-success,
+.sppb-btn.btn-success,
+.btn.btn-default:hover,
+.sppb-btn.btn-default:hover,
+.btn.sppb-btn-default:hover,
+.sppb-btn.sppb-btn-default:hover,
+.btn.btn-default:focus,
+.sppb-btn.btn-default:focus,
+.btn.sppb-btn-default:focus,
+.sppb-btn.sppb-btn-default:focus,
+.btn.sppb-btn-primary:hover,
+.sppb-btn.sppb-btn-primary:hover,
+.btn.btn-primary:hover,
+.sppb-btn.btn-primary:hover,
+.btn.sppb-btn-primary:focus,
+.sppb-btn.sppb-btn-primary:focus,
+.btn.btn-primary:focus,
+.sppb-btn.btn-primary:focus,
+.home-two-causes-donation .sppb-progress .sppb-progress-bar,
+.home-two-causes-donation .sppb-progress .sppb-progress-bar:before,
+.home-two-causes-donation .sppb-progress .sppb-progress-bar span,
+.sppb-slider-fullwidth-wrapper .owl-controls .owl-dots .owl-dot.active span,
+.sppb-addon-donation .donation-ammount-wrap input:hover,
+.sppb-addon-donation .donation-ammount-wrap input:focus,
+.sppb-modal-selector.sppb-magnific-popup span i,
+.tags a.label.label-info:hover,
+.tags a.label.label-info:focus,
+#sp-right .sppb-addon-social-media .social-media-text-wrap a:hover,
+#sp-left .sppb-addon-social-media .social-media-text-wrap a:hover,
+#sp-right .sppb-addon-social-media .social-media-text-wrap a:focus,
+#sp-left .sppb-addon-social-media .social-media-text-wrap a:focus,
+.helix-social-share .helix-social-share-icon ul li div a:hover,
+.helix-social-share .helix-social-share-icon ul li div a:focus,
+.pagination-wrapper .pagination li:hover a,
+.pagination-wrapper .pagination li.active a,
+.view-article .pager.pagenav li a,
+.view-article .article-footer-top .helix-social-share .helix-social-share-icon ul li a,
+.hope-causes.view-article .sppb-addon-donation .donation-button a,
+.sp-comingsoon .acymailing_form .acysubbuttons input,
+.error-page .btn.btn-primary,
+.sp-dropdown li.sp-menu-item > a:hover,
+.sp-dropdown li.sp-menu-item.active > a:hover {
+    background: @major_color;
+}
+
+.btn.sppb-btn-link:hover,
+.sppb-btn.sppb-btn-link:hover,
+.btn.btn-link:hover,
+.sppb-btn.btn-link:hover,
+.btn.sppb-btn-link:focus,
+.sppb-btn.sppb-btn-link:focus,
+.btn.btn-link:focus,
+.sppb-btn.btn-link:focus,
+.major-color,
+body.home-v2 .hope-become-a-volunteer .acymailing_module_form .acysubbuttons:hover:before,
+.sppb-slider-fullwidth-wrapper .customNavigation a:hover,
+.sppb-addon-animated-number div.sppb-addon-content .sppb-animated-number-syntax-before,
+.sppb-addon-animated-number div.sppb-addon-content .sppb-animated-number,
+.sppb-addon-animated-number div.sppb-addon-content .sppb-animated-number-syntax-after,
+.sppb-addon-social-media .social-media-text-wrap a:hover,
+.sppb-addon-social-media .social-media-text-wrap a:focus,
+.sppb-addon-upcoming-events .upcoming-events-date span,
+.sppb-addon-upcoming-events .upcoming-events-details-top-wrapper .event-address i,
+.sppb-addon-article .sppb-addon-article-title a:hover,
+.sppb-addon-article .sppb-addon-article-title a:focus,
+.sppb-addon-article .sppb-readmore:hover,
+.sppb-addon-article .sppb-readmore:focus,
+.contact-form-section .sppb-addon-feature .sppb-icon .sppb-icon-container i,
+.hope-faq-section .sppb-addon-feature .sppb-icon-container i,
+.sppb-addon-person .sppb-person-social-icons .sppb-person-social li a:hover,
+.sppb-addon-person .sppb-person-social-icons .sppb-person-social li a:focus,
+.article-info > dd,
+.article-info > dd a,
+article.item .readmore a,
+#sp-right .sp-module ul li a:hover,
+#sp-left .sp-module ul li a:hover,
+#sp-right .sp-module ul li a:focus,
+#sp-left .sp-module ul li a:focus,
+#sp-right .sp-module .latestnews > div a:hover,
+#sp-left .sp-module .latestnews > div a:hover,
+#sp-right .sp-module .latestnews > div a:focus,
+#sp-left .sp-module .latestnews > div a:focus,
+.entry-header h2 a:hover,
+.entry-header h2 a:focus,
+.pagination-wrapper .pagination li:first-child:not(.active):hover a,
+.pagination-wrapper .pagination li:last-child:not(.active):hover a,
+.view-article .entry-header .helix-social-share-wrap .helix-social-share .helix-social-share-icon ul li a:hover,
+.view-article .entry-header .helix-social-share-wrap .helix-social-share .helix-social-share-icon ul li a:focus {
+    color: @major_color;
+}
+
+.hope-become-a-volunteer{
+    background-color: @major_color;
+}
+
+.home-two-causes-donation .sppb-progress .sppb-progress-bar span:before {
+    border-right: 6px solid @major_color;
+}
+
+.sppb-addon-donation .donation-ammount-wrap input:hover,
+.sppb-addon-donation .donation-ammount-wrap input:focus,
+.sppb-addon-ajax-contact .sppb-ajax-contact-content .sppb-ajaxt-contact-form .sppb-form-group input:focus,
+.sppb-addon-ajax-contact .sppb-ajax-contact-content .sppb-ajaxt-contact-form .sppb-form-group textarea:focus {
+    border-color: @major_color;
+}
+
+.sppb-addon-gallery ul.sppb-gallery li a:before {
+    background: fade(@major_color, 90%);
+}
+
+.menu-drop-in .sp-has-child .sp-menu-item {
+    background-color: @megabg_color;
+}
+
+.sp-megamenu-parent .sp-dropdown .sp-dropdown-inner {
+    background: @megabg_color;
+}
